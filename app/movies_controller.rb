@@ -25,7 +25,7 @@ end
 
 def can_be_created_in_a_block(title= nil, release_date= nil)
   Movie.create do |m|
-   m.title
+   m.title = "Home Alone"
     m.release_date
   end
 end
